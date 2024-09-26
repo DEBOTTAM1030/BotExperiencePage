@@ -1,0 +1,7 @@
+<template>
+    <lightning-card title="claim submission">
+        <lightning-input type="text" label="Claim Amount" name="claimAmount" value={claimAmount} onchange={handleClaimAmount}></lightning-input>
+        <lightning-input type="text" label="Payer Name" name="payerName" value={payerName} onchange={handlePayerName}></lightning-input>
+        <lightning-button label="Submit Claim" onclick={handleClaimSubmit}></lightning-button>
+    </lightning-card>
+</template>
